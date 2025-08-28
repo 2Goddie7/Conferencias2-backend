@@ -1,0 +1,31 @@
+{
+  "name": "conferencias-backend",
+  "version": "1.0.0",
+  "description": "Backend conferencias examen final carrera",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2Goddie7/Conferencias-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2Goddie7/Conferencias-backend/issues"
+  },
+  "homepage": "https://github.com/2Goddie7/Conferencias-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  }
+}
