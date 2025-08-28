@@ -4,6 +4,7 @@ const auditorioSchema = new Schema({
     codigo: {
         type: String,
         required: true,
+        unique:true,
         trim: true
     },
     nombre: {
@@ -13,7 +14,6 @@ const auditorioSchema = new Schema({
     },
     ubicacion: {
         type: String,
-        unique:true,
         required: true
     },
     capacidad: {
