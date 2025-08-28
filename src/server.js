@@ -28,11 +28,11 @@ app.get(
 //Rutas usuario
 app.use('/api',routerUsuarios)
 //Rutas clientes
-app.use('/api',routerConferencistas)
+app.use('/api/conferencistas',routerConferencistas)
 //Rutas vehiculos
-app.use('/api',routerAuditorios)
+app.use('/api/auditorios',routerAuditorios)
 //Rutas reservas
-app.use('/api',routerReservas)
+app.use('/api/reservas',routerReservas)
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
